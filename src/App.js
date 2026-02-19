@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, 
+  BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, 
   ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Cell
 } from 'recharts';
 
@@ -339,5 +339,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
